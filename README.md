@@ -2,6 +2,12 @@
 
 HTML, CSS, JavaScript만으로 만든 GitHub 사용자 검색 앱입니다. **GitHub 공개 REST API**로 프로필과 **생성일 기준 최신** 저장소 목록을 불러와 화면에 표시합니다. React·Vue 등 **프레임워크와 빌드 도구는 사용하지 않습니다.**
 
+## 원격 저장소
+
+- <https://github.com/ghods0418/learn-0514-github-finder>
+
+다른 GitHub 계정으로 옮기려면 새 저장소를 만든 뒤 `git remote set-url origin <새-URL>` 하고 `git push -u origin main` 하면 됩니다.
+
 ## 주요 기능
 
 - **검색**: 사용자명 입력 후 **검색** 버튼 또는 **Enter**
